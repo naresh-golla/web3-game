@@ -1,0 +1,48 @@
+.header-logo-wallet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo{
+  font-size: 64px;
+}
+.wallet>a>div{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.wallet .ant-card-meta-title{
+ font-size: 20px;
+}
+.center-cont {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+.center-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.connect-btn{
+  height: 64px !important;
+  width: 250px;
+}
+.connect-btn>span{
+  font-size: 22px;
+}
+
+@media screen and (max-width:780px){
+  .header-logo-wallet{
+    flex-direction: column;
+  }
+  .wallet{
+    padding-top: 50px;
+  }
+  .center-cont{
+    height: 50vh;
+  }
+}
